@@ -1,0 +1,16 @@
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 60px;
+}
+.video-gallery {
+  background-color: rgb(18, 20, 31);
+}
+.video-title {
+  color: var(--primary);
+}
+iframe {
+  border-radius: 20px;
+}

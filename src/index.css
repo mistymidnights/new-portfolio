@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+@font-face {
+  font-family: titlesFont;
+  src: url(./fonts/DANCE.TTF);
+}
+
+/* ------------colors---------- */
+* {
+  --primary: #faf1e6;
+  --secondary: #fdfaf6;
+  --text: #062244;
+  --accent: #9fbfe2;
+}
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(255, 255, 255);
+  background-color: var(--primary);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+a {
+  font-weight: 500;
+  color: var(--text);
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 3.2em;
+  text-transform: uppercase;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+@media (max-width: 576px) {
+  .imagen-contenedor img {
+    height: 150px;
+  }
+  .card {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  .card2 {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .gallery img {
+    height: 390px;
+  }
+  .photos-container {
+    grid-template-columns: repeat(auto-fill, 390px);
+  }
+  .background-container h1 {
+    font-size: 35px;
+  }
+  .background-container h2 {
+    font-size: 30px;
+  }
+  .background-container p {
+    font-size: 20px;
+  }
+  .background-container {
+    height: 450px;
+  }
+  .logo-container img {
+    height: 40px;
+  }
+  ul {
+    gap: 20px;
+    font-size: 10px;
+  }
+  .footer-container p {
+    font-size: 14px;
+  }
+  .rrss svg {
+    font-size: 18px;
+  }
+}
