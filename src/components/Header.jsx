@@ -6,11 +6,7 @@ function Header() {
     <div className="header">
       <nav>
         <div className="logo-container">
-<<<<<<< HEAD
           <img src="public/images/logo1.png" alt="logo-chris" />
-=======
-          <img src="public\logo1.png" alt="logo-chris" />
->>>>>>> 390a91341aac26427ce75bfca2777afa07817692
         </div>
         <ul>
           <li>
