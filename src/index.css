@@ -4,7 +4,11 @@
   font-family: titlesFont;
   src: url(./fonts/DANCE.TTF);
 }
-
+@supports (-webkit-overflow-scrolling: touch) {
+  .wp-block-cover-image.has-parallax, .wp-block-cover.has-parallax {
+      background-attachment:scroll
+  }
+}
 /* ------------colors---------- */
 * {
   --primary: #faf1e6;
