@@ -32,10 +32,3 @@
 .background-container p {
   font-size: 1.5rem;
 }
-
-
-@media (max-width: 900px) {
-  .background-container{
-    background-attachment: scroll;
-  }
-}
