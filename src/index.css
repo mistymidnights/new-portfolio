@@ -115,4 +115,15 @@ button:focus-visible {
   .rrss svg {
     font-size: 18px;
   }
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagen-contenedor img {
+    height: 200px;
+}
 }

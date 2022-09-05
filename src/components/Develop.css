@@ -43,3 +43,17 @@
   transform: scale(1.2);
   transition-duration: 3s;
 }
+
+
+@media (max-width: 1166px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+}

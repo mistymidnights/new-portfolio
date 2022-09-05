@@ -8,25 +8,23 @@ function Header() {
         <div className="logo-container">
           <img src="https://i.ibb.co/JCjMbW9/logo1.png" alt="logo-chris" />
         </div>
-        <ul>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#gallery">Gallery</a>
-          </li>
-          <li>
-            <a href="#video">Video</a>
-          </li>
-          <li>
-            <a href="#develop">Develop</a>
-          </li>
-          <li>
+        <div id="menuToggle">
+              <input type="checkbox" />
+                <span className="span-position"></span>
+                <span className="span-position"></span>
+                <span className="span-position"></span>
+            <ul id="menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#video">Video</a></li>
+              <li><a href="#develop">Develop</a></li>
+              <li>
             <a href="https://mycv-react.vercel.app" target="_blank">
               CV
             </a>
           </li>
-        </ul>
+            </ul>
+        </div>
       </nav>
     </div>
   );
