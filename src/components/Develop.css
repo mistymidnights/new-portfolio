@@ -44,6 +44,11 @@
   transition-duration: 3s;
 }
 
+@media (max-width: 576px) {
+  .imagen-contenedor img {
+    height: 150px;
+  }
+}
 
 @media (max-width: 1166px) {
   .card {
@@ -55,5 +60,4 @@
     align-items: center;
   }
 
-  
 }

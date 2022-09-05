@@ -13,6 +13,7 @@
   --accent: #9fbfe2;
 }
 :root {
+
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -65,10 +66,12 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.App{
+  overflow-y: hidden;
+}
 @media (max-width: 576px) {
-  .imagen-contenedor img {
-    height: 150px;
-  }
+
   .card {
     width: 90%;
     flex-direction: column;
@@ -85,7 +88,7 @@ button:focus-visible {
     font-size: 20px;
   }
   .gallery img {
-    height: 390px;
+    height: 382px;
   }
   .photos-container {
     grid-template-columns: repeat(auto-fill, 390px);
@@ -123,7 +126,6 @@ button:focus-visible {
     flex-direction: column;
     align-items: center;
   }
-  .imagen-contenedor img {
-    height: 200px;
-}
+  
+
 }
