@@ -34,10 +34,16 @@
 }
 
 .titleTransparent {
-  width: 90%;
+  max-width: 773px;
 }
 
 #gallery {
   font-family: Antapani-ExtraBold;
   letter-spacing: 4px;
+}
+
+@media (max-width: 576px) {
+  .titleTransparent {
+    max-width: 400px;
+  }
 }
