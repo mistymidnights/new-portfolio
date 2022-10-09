@@ -6,7 +6,7 @@ const Video = () => {
     <>
       <div id="video" className="video-gallery">
         <div className="title-container">
-          <h1 className="video-title">Video</h1>
+          <h1 className="video-title">Video reel</h1>
         </div>
         <div className="video-container">
           <iframe

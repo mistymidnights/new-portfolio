@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("https://cdn.discordapp.com/attachments/701164137081733201/1012941575418040320/Reedit15-16-5-2.jpg");
+  background-image: url("https://media.discordapp.net/attachments/701164137081733201/1028504658861371482/dsadas.png?width=997&height=666");
   background-size: cover;
   background-attachment: fixed;
   background-position-y: -50px;
@@ -31,4 +31,13 @@
 }
 .background-container p {
   font-size: 1.5rem;
+}
+
+.titleTransparent {
+  width: 90%;
+}
+
+#gallery {
+  font-family: Antapani-ExtraBold;
+  letter-spacing: 4px;
 }

@@ -5,7 +5,7 @@ const Gallery = () => {
   return (
     <>
       <div className="title-container">
-        <h1 id="gallery">Gallery</h1>
+        <h1 id="gallery">Photo Reel</h1>
       </div>
       <div className="gallery">
         <div className="photos-container">
@@ -54,12 +54,6 @@ const Gallery = () => {
           <img src="https://i.ibb.co/CpyFchz/44.jpg" alt="" />
           <img src="https://i.ibb.co/92PyZfq/45.jpg" alt="" />
           <img src="https://i.ibb.co/KWZqyK1/46.jpg" alt="" />
-          <img src="https://i.ibb.co/28HDmsx/47.jpg" alt="" />
-          <img src="https://i.ibb.co/QrkY4CD/48.jpg" alt="" />
-          <img src="https://i.ibb.co/pjG3vGP/49.jpg" alt="" />
-          <img src="https://i.ibb.co/vHtHyHV/50.jpg" alt="" />
-          <img src="https://i.ibb.co/GW6VD3B/51.jpg" alt="" />
-          <img src="https://i.ibb.co/xmwtYv3/52.jpg" alt="" />
         </div>
       </div>
     </>

@@ -5,9 +5,11 @@ const Home = () => {
   return (
     <div id="home" className="home">
       <div className="background-container">
-        <h1>Web Developing</h1>
-        <h2>Audiovisual</h2>
-        <p>Gaffer, camera & editor</p>
+        <img
+          className="titleTransparent"
+          src="https://media.discordapp.net/attachments/701164137081733201/1028152307860377611/mobileHerotransparent.png"
+          alt=""
+        />
       </div>
     </div>
   );

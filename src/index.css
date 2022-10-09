@@ -1,23 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-/* font-family: 'Roboto', sans-serif; */
 @font-face {
-  font-family: titlesFont;
-  src: url(./fonts/DANCE.TTF);
+  font-family: Antapani-ExtraBold;
+  src: url(/public/fonts/Antapani-ExtraBold.woff);
+}
+@font-face {
+  font-family: Wavehaus;
+  src: url(/public/fonts/Wavehaus-128Bold.woff);
+}
+
+@font-face {
+  font-family: Wavehaus;
+  src: url(/public/fonts/Wavehaus-66Book.woff);
 }
 @supports (-webkit-overflow-scrolling: touch) {
-  .wp-block-cover-image.has-parallax, .wp-block-cover.has-parallax {
-      background-attachment:scroll
+  .wp-block-cover-image.has-parallax,
+  .wp-block-cover.has-parallax {
+    background-attachment: scroll;
   }
 }
 /* ------------colors---------- */
 * {
-  --primary: #faf1e6;
+  --primary: #0e0e0e;
   --secondary: #fdfaf6;
-  --text: #062244;
+  --text: #ecc867;
   --accent: #9fbfe2;
 }
 :root {
-
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -39,7 +46,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #eecb83;
 }
 body {
   margin: 0;
@@ -71,11 +78,10 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.App{
+.App {
   overflow-y: hidden;
 }
 @media (max-width: 576px) {
-
   .card {
     width: 90%;
     flex-direction: column;
@@ -92,7 +98,7 @@ button:focus-visible {
     font-size: 20px;
   }
   .gallery img {
-    height: 382px;
+    height: 390px;
   }
   .photos-container {
     grid-template-columns: repeat(auto-fill, 390px);
@@ -111,6 +117,7 @@ button:focus-visible {
   }
   .logo-container img {
     height: 40px;
+    padding-top: 10px;
   }
   ul {
     gap: 25px;
@@ -130,6 +137,4 @@ button:focus-visible {
     flex-direction: column;
     align-items: center;
   }
-  
-
 }

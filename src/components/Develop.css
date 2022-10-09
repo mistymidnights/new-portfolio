@@ -1,13 +1,27 @@
 .develop-container {
-  background-color: rgb(133, 155, 194);
+  background-color: #eecb83;
+  color: black;
   display: flex;
   padding-top: 50px;
   flex-direction: column;
   align-items: center;
   z-index: -1;
 }
+
+.developClassA {
+  color: black;
+  font-family: Antapani-ExtraBold;
+}
+
+.titleMaster {
+  font-family: Wavehaus;
+  font-size: 28px;
+}
 .develop-container h1 {
+  font-family: Antapani-ExtraBold;
   margin-bottom: 80px;
+  color: black;
+  letter-spacing: 2px;
 }
 .texto-contenedor h1 {
   margin-bottom: 20px;
@@ -15,9 +29,15 @@
 }
 .texto-contenedor p {
   text-align: justify;
+  font-family: Wavehaus;
+  font-size: 14px;
 }
 .imagen-contenedor img {
   height: 300px;
+}
+.imagen-contenedor {
+  display: flex;
+  align-items: center;
 }
 .card {
   width: 60%;
@@ -35,13 +55,26 @@
 
 .card2:hover {
   transition: ease-in;
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 3s;
 }
 .card:hover {
   transition: ease-in;
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 3s;
+}
+
+.linksContainer {
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.linksContainer a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.linksContainer a {
+  color: rgb(72, 72, 72);
 }
 
 @media (max-width: 576px) {
@@ -59,5 +92,4 @@
     flex-direction: column;
     align-items: center;
   }
-
 }

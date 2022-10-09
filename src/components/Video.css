@@ -4,13 +4,18 @@
   gap: 20px;
   justify-content: center;
   padding: 60px;
+  color: whitesmoke;
 }
 .video-gallery {
-  background-color: rgb(18, 20, 31);
+  background-color: rgb(16, 16, 16);
 }
 .video-title {
-  color: var(--primary);
+  color: rgb(217, 192, 92);
+  font-family: Antapani-ExtraBold;
+  letter-spacing: 2px;
+  font-size: 26px;
 }
+
 iframe {
   border-radius: 20px;
 }
