@@ -30,8 +30,7 @@ const Develop = () => {
             seen by other users. It has more extra features like podcasts, music
             playlists, help bot, real-time chat between users, mini-games and a
             #likes and #comments system. We are also using another API that
-            controls our real-time chat (Firebase). Translated with
-            www.DeepL.com/Translator (free version)`
+            controls our real-time chat (Firebase).
           </p>
           <a
             className="developClassA"
