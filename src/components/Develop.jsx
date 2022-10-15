@@ -41,31 +41,31 @@ const Develop = () => {
           </a>
           <div className="linksContainer">
             <a href="https://lnkd.in/dVMk8aR5" target="_blank">
-              🔴DOCU
+              •DOCU
             </a>
             <a href="https://lnkd.in/dfEkWSck" target="_blank">
-              🔴BUILDED FRONT
+              •BUILDED FRONT
             </a>
             <br />
             <h2> R E P O S I T O R I E S </h2>
             <br />
             <a href="https://lnkd.in/dyZssvDc" target="_blank">
-              🔴BACK NODE
+              •BACK NODE
             </a>
             <a href="https://lnkd.in/d3BZXDTi" target="_blank">
-              🔴Front client
+              •Front client
             </a>
             <a href="https://lnkd.in/djwUKnbz" target="_blank">
-              🔴Front CMS-ADMIN
+              •Front CMS-ADMIN
             </a>
             <a href="https://lnkd.in/dRPKVM2E" target="_blank">
-              🔴CHAT FIREBASE
+              •CHAT FIREBASE
             </a>
             <a href="https://lnkd.in/dppCbrft" target="_blank">
-              🔴GAMES CANVAS
+              •GAMES CANVAS
             </a>
             <a href="https://lnkd.in/dn2Xr8zp" target="_blank">
-              🔴GAMES CANVAS 2
+              •GAMES CANVAS 2
             </a>
           </div>
         </div>
